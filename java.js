@@ -279,7 +279,7 @@ const User2= new ProfileTemplate('Ama','Ama.amoah@gmail.com','12345','Accra',18)
 console.log(User2.Getbook())*/
 
 //CLASS INHERITANCE
-class Car{
+/*class Car{
    constructor(wheels, stear, seats, engine){
       this.wheels=wheels,
       this.stear=stear,
@@ -295,4 +295,80 @@ class Pickup extends Car{
    }
 }
 const hilux = new Pickup('four','one','one','one')
-console.log(hilux.features())
+console.log(hilux.features())*/
+
+/*let name='kenneth amoatey';
+console.log(name);
+
+var firstName='kenneth';
+console.log(firstName);*/
+
+// IF ELSE STATEMENT
+let man=true;
+if (man==true){
+   console.log('male')
+} else {
+   console.log('female')
+}
+let day = true
+if (day==true){
+   console.log('morning')
+} else {
+   console.log('afternoon')
+}
+let integers=true
+if (integers== true){
+   console.log('any number from one to infinity')
+} else{
+   console.log('numbers are floating numbers')
+}
+//IF ELSE IF STATEMENT
+let score=70
+if (score>=80){
+   console.log('A')
+} else if(score>=65 && score<=79){
+   console.log('B')
+} else if(score >=55 && score<=64){
+   console.log('C')
+} else{
+   console.log('fail')
+}
+
+//SWITCH STATEMENT
+let a= 15
+let b=25
+switch (a+b){
+   case 39:
+      console.log(39);
+      break;
+      case 41:
+         console.log(41);
+         break;
+         default:
+            console.log('no answer')
+}
+
+let firstName='kenneth'
+let surName= 'amoatey'
+switch (surName+firstName){
+   case 'kenneth amoatey':
+      console.log('kennethamoatey');
+      break;
+      case 'amoateykenneth':
+         console.log('amoateykenneth');
+         break;
+         default:
+            console.log('no name')
+            break;
+
+}
+//ARRAYS
+/*let pupils=['kenneth','amoatey','kojo','amoah','ama','yaw']
+console.log(pupils)
+document.write(pupils)
+console.log(pupils[1])
+*/
+let number=0
+for(i=0;i<10;i++)
+   number=number+1
+console.log(i)
