@@ -367,8 +367,10 @@ switch (surName+firstName){
 console.log(pupils)
 document.write(pupils)
 console.log(pupils[1])
-*/
+
 let number=0
 for(i=0;i<10;i++)
    number=number+1
-console.log(i)
+console.log(i)*/
+
+document.body.innerHTML="Hello world"
